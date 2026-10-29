@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ShopEasy - Contact</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            color: green;
+        }
+
+        .banner {
+            background-color: green;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: green;
+        }
+
+        .contact-info {
+            padding: 15px;
+            border-bottom: 1px solid green;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 90%;
+            padding: 10px;
+            border: 1px  green;
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: black;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                padding: 5px;
+            }
+
+            input, textarea {
+                width: 85%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ShopEasy</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="categories.html">Categories</a>
+            <a href="offers.html">Offers</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="banner">
+        <h2>Contact Us</h2>
+        <p>We are here to help you!</p>
+    </div>
+
+    <section>
+        <h2>Get in Touch</h2>
+
+        <div class="contact-info">
+            <h3>Email</h3>
+            <p>support@shopeasy.com</p>
+        </div>
+
+        <div class="contact-info">
+            <h3>Phone</h3>
+            <p>+91 98765 43210</p>
+        </div>
+
+        <div class="contact-info">
+            <h3>Address</h3>
+            <p>ShopEasy Shopping Centre, nuzvid, Andhra Pradesh, India</p>
+        </div>
+    </section>
+
+    
+    <section>
+        <h2>Send Us a Message</h2>
+
+        <form>
+            <p>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+            </p>
+
+            <p>
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+            </p>
+
+            <p>
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5"
+                          placeholder="Write your message" required></textarea>
+            </p>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>ShopEasy - Your Everyday Shopping Store</p>
+        <p>Contact: support@shopeasy.com</p>
+        <p>Copyright 2026 ShopEasy</p>
+    </footer>
+
+</body>
+</html>
